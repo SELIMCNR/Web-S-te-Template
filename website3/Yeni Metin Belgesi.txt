@@ -1,0 +1,35 @@
+yopmail.com	 sahte mail adresi 
+javascript header da tanımlanmaz ensona ekle fontausum.com ikon alma
+javascript işlevseldir.
+logolar resim olarak alınır yazıylada.
+inframe etiketi ile harita direk aktarılabilir. İNFRAME DE WEİGHT HEİGHT AYARLA
+rgba() opacitiy verilir.
+
+TEXT ALİGN TEXTİ ORTALAR.
+:root{
+--RENK:BLUE;
+--YAZITİP:SAN-SERİF
+}
+TANIMLAMA YAPILIR.
+BORDER-RADİUS:%50; TAM DAİRE YAPAR BORDER 0 LAMA YAP
+HOVER ÜZERİNDE İŞLEM YAPAR A:HOVER{}
+ACTİVE TIKLANINCA İŞLEM YAPAR A:ACTİVE{}
+REM SP ÖLÇÜ BİRİM.
+
+RESPONSİVE 
+TARAFI
+@MEDİA etiketi kullanılır
+@media only screen and (max-device-width : 1024px){
+
+
+	}
+@media (max-device-width: 930px){
+
+}	
+@media (max-device-width: 600px){
+
+}
+@media (max-device-width: ){
+	
+}
+ 600'den aşagıda android ikonları ekle menüye

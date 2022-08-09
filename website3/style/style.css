@@ -1,0 +1,189 @@
+
+:root {
+    --color_0: 255,255,255;
+    --color_27: 186,131,240;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_28: 128,21,232;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 246,244,240;
+    --color_12: 232,230,230;
+    --color_13: 199,199,199;
+    --color_14: 117,117,117;
+    --color_15: 39,36,67;
+    --color_16: 255,255,255;
+    --color_17: 230,145,138;
+    --color_18: 218,57,43;
+    --color_29: 85,14,155;
+    --color_19: 145,38,29;
+    --color_20: 73,19,14;
+    --color_21: 254,255,185;
+    --color_22: 252,255,114;
+    --color_23: 189,191,86;
+    --color_24: 126,128,57;
+    --color_25: 63,64,28;
+    --color_30: 43,7,77;
+    --color_31: 177,211,187;
+    --color_32: 127,168,139;
+    --color_33: 64,124,81;
+    --color_34: 43,83,54;
+    --color_35: 21,41,27;
+    --font_0: normal normal normal 80px/1.4em 'suez one',serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 50px/1.4em 'suez one',serif;
+    --font_3: normal normal normal 40px/1.4em roboto-bold,roboto,sans-serif;
+    --font_4: normal normal normal 34px/1.4em roboto-bold,roboto,sans-serif;
+    --font_5: normal normal normal 26px/1.4em reklamescriptw00-medium,cursive;
+    --font_6: normal normal normal 21px/1.4em roboto-bold,roboto,sans-serif;
+    --font_7: normal normal bold 24px/1.4em roboto-thin,roboto,sans-serif;
+    --font_8: normal normal bold 18px/1.4em roboto-thin,roboto,sans-serif;
+    --font_9: normal normal bold 16px/1.4em roboto-thin,roboto,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    --minViewportSize: 320;
+    --color_26: 210,172,247;
+    --maxViewportSize: 1920;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+main{
+	width: 100%;
+	height: 2100px;
+}
+header{
+	height: 500px;
+width: 100%;
+	background-image: url("../images/WP.jpg");
+	background-attachment:fixed;
+}
+#header{
+
+display: flex;
+
+}
+button{
+	margin-left: 35px;
+	background-color: red;
+	padding: 1px;
+}
+#menu{
+	background-color: rgba(222, 225, 228, 0.7);
+	box-shadow: 2px 2px 3px 3px red ;
+	margin-left: 50%;
+}
+#menuUst{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+
+	
+}
+li{
+	
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 300;
+	text-shadow: 1px;
+	padding: 15px;
+	padding-top: 10px;
+	list-style-type: none;
+	color: rgb(44, 42, 42);
+	font-size: 18px;
+}
+a{
+	
+	text-decoration: none;
+}
+li:hover{
+	background-color: red;
+	color: white;
+}
+#bolum{
+	width: 100%;
+	height: 400px;
+}
+#article{
+	margin-top: 15%;
+	margin-left: 10%;
+}
+#bolum2{
+	width: 100%;
+	height: 300px;
+
+}
+#article2{
+	display: flex;
+	padding-left: 5%;
+	margin-top: -10px;
+	
+}
+footer{
+	width: 100%;
+	height: 500px;
+}
+#baslik{
+	display: flex;
+}
+#alt{
+	display: flex;
+}
+li{
+	color: black;
+	font-size: 24px;
+}
+@media only screen and (max-device-width : 1024px){
+
+
+	}
+@media (max-device-width: 930px){
+	#menu{
+		background-color: rgba(222, 225, 228, 0.7);
+		margin-left: 25%;
+	}
+	li{
+		padding: 10px;
+		padding-top: 10px;
+		list-style-type: none;
+		color: rgb(44, 42, 42);
+		font-size: 18px;
+	}
+}	
+@media (max-device-width: 600px){
+	#menu{
+		background-color: rgba(0, 99, 199, 0.7);
+		margin-left: 20%;
+	}
+	li{
+		padding: 10px;
+		padding-top: 10px;
+		list-style-type: none;
+		color: rgb(255, 255, 255);
+		font-size: 14px;
+	}
+}
+@media (max-device-width:400px){
+	#menu{
+		background-color: rgba(0, 99, 199, 0.7);
+		margin-left: 5%;
+	}
+	li{
+		padding: 1px;
+		padding-top: 10px;
+		list-style-type: none;
+		color: rgb(255, 255, 255);
+		font-size: 12px;
+	}
+}
